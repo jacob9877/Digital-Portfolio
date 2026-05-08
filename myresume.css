@@ -1,0 +1,117 @@
+/* CSS Variables for easy color changes */
+:root {
+    --primary-color: #2563eb;
+    /* Deep Blue accent */
+    --text-main: #1f2937;
+    /* Dark Gray */
+    --text-light: #6b7280;
+    /* Muted Gray */
+    --bg-color: #ffffff;
+    --border-color: #e5e7eb;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    color: var(--text-main);
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 0 40px;
+    background-color: var(--bg-color);
+}
+
+/* Header Section */
+header {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: -1px;
+    color: #111;
+}
+
+.contact-info {
+    margin-top: 8px;
+    color: var(--text-light);
+    font-weight: 500;
+}
+
+/* Section Styling */
+h2 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 5px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.item {
+    margin-bottom: 25px;
+}
+
+/* Headers for Education/Jobs */
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.item-sub {
+    display: block;
+    color: var(--text-light);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-weight: 500;
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+/* Skills Grid */
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.skill-tag {
+    font-size: 0.9rem;
+    background: #f3f4f6;
+    padding: 4px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 2px;
+}
+
+/* List styling */
+ul {
+    padding-left: 18px;
+    margin-top: 5px;
+}
+
+li {
+    margin-bottom: 6px;
+    position: relative;
+}
+
+/* Print Optimization */
+@media print {
+    body {
+        margin: 20px;
+    }
+
+    .no-print {
+        display: none;
+    }
+}
