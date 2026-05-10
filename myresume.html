@@ -78,6 +78,12 @@
         .skills-category {
             font-weight: bold;
         }
+
+        #visitor-count {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 10px;
+        }
     </style>
 </head>
 
@@ -145,6 +151,20 @@
         </ul>
     </div>
 
+    <div id="visitor-count"></div>
+
 </body>
 
 </html>
+
+<script>
+    fetch('https://i4md6xin9e.execute-api.us-east-1.amazonaws.com/prod/visitors')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('visitor-count').innerText = `Visitors: ${data.count}`;
+        })
+        .catch(error => {
+            console.error('Error fetching visitor count:', error);
+            document.getElementById('visitor-count').innerText = 'Visitors: Error loading count';
+        });
+</script>
