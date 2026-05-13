@@ -151,14 +151,14 @@ header {
     margin-top: 20px;
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
-    font-size: 18px;
+    font-size: 25px;
     color: var(--muted);
     letter-spacing: 0.01em;
 }
 
 /* Sections */
 section {
-    padding: 1px 0;
+    padding: 10px 0;
     border-bottom: 1px solid var(--border);
     opacity: 0;
     animation: fadeUp 0.8s ease forwards;
@@ -185,7 +185,7 @@ section:nth-child(6) {
 }
 
 .section-label {
-    padding-top: 40px;
+    padding-top: 1px;
     font-size: 20px;
     letter-spacing: 0.20em;
     text-transform: uppercase;
@@ -208,7 +208,7 @@ section:nth-child(6) {
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: baseline;
-    gap: 20px;
+    gap: 1px;
 }
 
 .edu-school {
