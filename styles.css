@@ -21,6 +21,30 @@
     --color-fg: #ffffff;
 }
 
+/* CSS Styling */
+.minimal-link:link,
+.minimal-link:visited {
+    color: #4bcfdd;
+    /* Clean charcoal text color */
+    text-decoration: none;
+    /* Removes default underline */
+    font-weight: 500;
+    /* Gives slight emphasis to the text */
+    transition: color 0.2s ease;
+    /* Smoothly transitions color changes */
+}
+
+.minimal-link:hover {
+    color: #bed300;
+    /* Darkens to pure black on hover */
+    text-decoration: underline;
+    /* Adds underline back on hover only */
+}
+
+.minimal-link:active {
+    color: #666666;
+    /* Gives subtle feedback when clicked */
+}
 button {
     font-size: 2rem;
     font-weight: bold;
