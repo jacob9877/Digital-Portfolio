@@ -24,7 +24,7 @@
 /* CSS Styling */
 .minimal-link:link,
 .minimal-link:visited {
-    color: #4bcfdd;
+    color: #45d4d2;
     /* Clean charcoal text color */
     text-decoration: none;
     /* Removes default underline */
@@ -35,14 +35,14 @@
 }
 
 .minimal-link:hover {
-    color: #bed300;
+    color: #c8e02a;
     /* Darkens to pure black on hover */
     text-decoration: underline;
     /* Adds underline back on hover only */
 }
 
 .minimal-link:active {
-    color: #666666;
+    color: #45d4d2;
     /* Gives subtle feedback when clicked */
 }
 button {
