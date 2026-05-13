@@ -100,12 +100,12 @@ body::before {
 
 /* Header */
 header {
-    padding: 80px 0 60px;
+    padding: 40px 0 0;
     position: relative;
     opacity: 0;
     animation: fadeUp 0.9s ease forwards 0.1s;
     margin-bottom: 0;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
 }
 
 .header-inner {
@@ -150,18 +150,18 @@ header {
 }
 
 .tag-line {
-    margin-top: 20px;
+    margin-top: 5px;
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
     font-size: 25px;
     color: var(--muted);
     letter-spacing: 0.01em;
-    margin-bottom: 0;
+    margin-bottom: 10;
 }
 
 /* Sections */
 section {
-    padding: 10px 0;
+    padding: 5px 0;
     border-bottom: 1px solid var(--border);
     opacity: 0;
     animation: fadeUp 0.8s ease forwards;
