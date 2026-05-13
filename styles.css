@@ -161,7 +161,7 @@ header {
 
 /* Sections */
 section {
-    padding: 5px 0;
+    padding: 15px 0;
     border-bottom: 1px solid var(--border);
     opacity: 0;
     animation: fadeUp 0.8s ease forwards;
