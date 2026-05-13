@@ -104,6 +104,8 @@ header {
     position: relative;
     opacity: 0;
     animation: fadeUp 0.9s ease forwards 0.1s;
+    margin-bottom: 0;
+    padding-bottom: 5px;
 }
 
 .header-inner {
@@ -154,6 +156,7 @@ header {
     font-size: 25px;
     color: var(--muted);
     letter-spacing: 0.01em;
+    margin-bottom: 0;
 }
 
 /* Sections */
@@ -186,8 +189,8 @@ section:nth-child(6) {
 
 .section-label {
     padding-top: 1px;
-    font-size: 20px;
-    letter-spacing: 0.20em;
+    font-size: 22px;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--accent);
     margin-bottom: 10px;
