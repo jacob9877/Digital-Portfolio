@@ -133,13 +133,13 @@ header {
 
 .contact-block {
     text-align: right;
-    color: var(--muted);
+    color: #9e9690;
     font-size: 18px;
     letter-spacing: 0.05em;
 }
 
 .contact-block a {
-    color: var(--muted);
+    color: #9e9690;
     text-decoration: none;
     display: block;
     transition: color 0.2s;
@@ -154,7 +154,7 @@ header {
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
     font-size: 25px;
-    color: var(--muted);
+    color: #9e9690;
     letter-spacing: 0.01em;
     margin-bottom: 0px;
 }
@@ -222,7 +222,7 @@ section:nth-child(6) {
 }
 
 .edu-degree {
-    color: var(--muted);
+    color: #9e9690;
     margin-top: 4px;
     font-size: 18px;
 }
@@ -230,7 +230,7 @@ section:nth-child(6) {
 .date-badge {
     font-size: 18px;
     letter-spacing: 0.08em;
-    color: var(--muted);
+    color: #9e9690;
     white-space: nowrap;
 }
 
@@ -320,7 +320,7 @@ section:nth-child(6) {
 
 .project-date {
     font-size: 18px;
-    color: var(--muted);
+    color: #9e9690;
     white-space: nowrap;
 }
 
@@ -332,7 +332,7 @@ section:nth-child(6) {
 }
 
 .project-bullets li {
-    color: var(--muted);
+    color: #9e9690;
     font-size: 18px;
     padding-left: 16px;
     position: relative;
@@ -399,7 +399,7 @@ section:nth-child(6) {
 }
 
 .work-bullets li {
-    color: var(--muted);
+    color: #9e9690;
     font-size: 18px;
     padding-left: 16px;
     position: relative;
@@ -421,7 +421,7 @@ section:nth-child(6) {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    color: var(--muted);
+    color: #9e9690;
     text-decoration: none;
     font-size: 18px;
     letter-spacing: 0.08em;
@@ -439,7 +439,7 @@ section:nth-child(6) {
 footer {
     padding: 40px 0;
     text-align: center;
-    color: var(--muted);
+    color: #9e9690;
     font-size: 15px;
     letter-spacing: 0.1em;
     opacity: 0;
